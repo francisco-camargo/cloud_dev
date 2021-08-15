@@ -1,3 +1,7 @@
+
+def my_string():
+    return 'foo'
+
 def my_sum(a,b):
     return a + b
 

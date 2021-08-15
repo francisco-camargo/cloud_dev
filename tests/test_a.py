@@ -1,6 +1,16 @@
 import unittest
 
+import sys
+if '..' not in sys.path:
+    sys.path.append('..')
+
+from src import main
+
 class TestStringMethods(unittest.TestCase):
+
+    def test_simple(self):
+        x = 'foo'
+        self.assertEqual(main.my_string(), x)
 
     def test_upper(self):
         self.assertEqual('foo'.upper(), 'FOO')
