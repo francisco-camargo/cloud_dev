@@ -3,3 +3,4 @@ name: python39
 dependencies:
   - python=3.9.6
   - spyder=5
+  - pytest 6.2.4
