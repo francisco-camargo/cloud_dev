@@ -3,6 +3,10 @@ Francisco Camargo
 
 I want to be able to end up with a coding environment that enables me to develop and deploy on the cloud. I want to be able to make changes to the code on the cloud on the fly, this is possible with VS Code (somehow...).
 
+## Connect to GitHub
+
+GitHub now requires a Personal Access Token, [this](https://stackoverflow.com/a/68781050/9205210) post helped me to get things working.
+
 ## Using this repo
 
 ### Typora
