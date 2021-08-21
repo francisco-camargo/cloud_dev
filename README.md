@@ -15,7 +15,15 @@ Create the environment for this repo by running:
 
 `conda env create -f environment.yaml`
 
-### dataclass decorator
+## Running Code
+
+### Command Line Interface (CLI)
+
+While in the `cloud_dev\src`, can run `python main.py` from the powershell terminal in VS Code.
+
+#### Passing Arguments
+
+[Deep Learning A2](https://bitbucket.org/GT-OMSCS/assignment2/src/main/part2-pytorch/main.py)
 
 ### Running Unit Tests
 
