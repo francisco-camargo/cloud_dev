@@ -1,7 +1,10 @@
-# cloud_dev
+# cloud\_dev
+
 Francisco Camargo
 
 I want to be able to end up with a coding environment that enables me to develop and deploy on the cloud. I want to be able to make changes to the code on the cloud on the fly, this is possible with VS Code (somehow...).
+
+testing GitBook
 
 ## Connect to GitHub
 
@@ -11,7 +14,7 @@ GitHub now requires a Personal Access Token, [this](https://stackoverflow.com/a/
 
 ### Typora
 
-Using [Typora](https://typora.io/) to read and edit .md files. Using the Nord [theme](https://theme.typora.io/theme/Nord/).
+Using [Typora](https://typora.io) to read and edit .md files. Using the Nord [theme](https://theme.typora.io/theme/Nord/).
 
 ### environment
 
@@ -35,7 +38,7 @@ While in the `cloud_dev\src`, can run `python main.py` from the powershell termi
 
 #### unittest
 
-able to run test_a.py from spyder or from terminal:
+able to run test\_a.py from spyder or from terminal:
 
 `python -m unittest tests.test_a`
 
@@ -51,9 +54,9 @@ Add `__init__.py` file within `tests` folder and from parent directory run
 
 try `pytest`, sounds simpler than unittest.
 
-Following [ref](https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest): Ran all tests including the ones written in other files using `unittest` by running 
+Following [ref](https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest): Ran all tests including the ones written in other files using `unittest` by running
 
-`python -m pytest` 
+`python -m pytest`
 
 By using `@pytest.fixture` decorators we avoided having write some repetitive boilerplate code to make instances of the `Wallet` class. Each test is provided with a newly-initialized `Wallet` instance, and not one that has been used in another test. By running parametrized test functions we can easily test several quantitative scenarios.
 
@@ -71,7 +74,7 @@ GitHub Codespaces would let me develop in-browser. On a waitlist for the time be
 
 ### Continuous integration / continuous deployment
 
-[Tutorial](https://www.youtube.com/watch?v=eB0nUzAI7M8&ab_channel=Fireship)
+[Tutorial](https://www.youtube.com/watch?v=eB0nUzAI7M8\&ab\_channel=Fireship)
 
 GitHub Actions
 
